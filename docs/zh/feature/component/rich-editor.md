@@ -50,7 +50,7 @@
 源码也很简单，有任何别的需求都可以在 [@/components/Tinymce](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/components/Tinymce) 中自行修改。
 
 ```html
-<tinymce :height="300" v-model="content" id='tinymce'></tinymce>
+<tinymce :height="300" v-model="content" id='myTinymce'></tinymce>
 ```
 
 目前提供了如下几个属性，有需求可自行添加，或者提 issue。
